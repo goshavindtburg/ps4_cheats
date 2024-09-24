@@ -1744,7 +1744,7 @@
             <Line Type="bytes" Address="0x0183a35d" Value="abaaaa3f"/>
         </PatchList>
     </Metadata>
-        <Metadata Title="Bloodborne" Name="Restore Debug Menu" Author="gosha &amp; GenericEnginer" Note="Press the Touchpad for the Debug Menu to appear. Circle to confirm, X to go back." PatchVer="1.0" AppVer="01.09" AppElf="eboot.bin" isEnabled="true">
+    <Metadata Title="Bloodborne" Name="Restore Debug Menu" Author="gosha &amp; GenericEnginer" Note="Press the Touchpad for the Debug Menu to appear. Circle to confirm, X to go back. A mod on Nexus is required for this to function." PatchVer="1.0" AppVer="01.09" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <Line Type="bytes" Address="0x0F7190D" Value="75"/>
             <Line Type="bytes" Address="0x01d9deee" Value="48"/>
@@ -2003,3 +2003,4 @@
             <Line Type="bytes" Address="0x0493F829" Value="00"/>
         </PatchList>
     </Metadata>
+</Patch>
